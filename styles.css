@@ -1,0 +1,29 @@
+.password-protected-wrapper{
+	width:100%;
+  display:flex;
+  flex-direction:column;
+  align-content:flex-start;
+  justify-content:flex-start;
+  align-items:center;
+  min-height:50vh;
+  gap:20px;
+}
+.password-protected-wrapper input[type=password] {
+    padding:7px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.password-protected-wrapper input[type=text]:focus {
+    border-color:var(--bde-brand-primary-color);
+}
+
+.password-protected-wrapper input[type=submit] {
+    padding:10px 25px; 
+    background:var(--bde-brand-primary-color);; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
