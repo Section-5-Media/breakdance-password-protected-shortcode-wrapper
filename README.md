@@ -1,6 +1,6 @@
 # breakdance-password-protected-shortcode-wrapper
 
-Add this to your site using a plugin like code snippets, Scripts Organizer, etc. 
+Add this shortcode code to your site using a plugin like code snippets, Scripts Organizer, etc. 
 Protected content should be wrapped in a "ShortcodeWrapper" Breakdance element.
 Use the shortcode [custom_protected]
 
